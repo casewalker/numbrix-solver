@@ -161,7 +161,7 @@ class Board:
         return next_boards
 
     def __repr__(self):
-        """What should the board look when it is printed? How about:
+        """What should the board look like when it is printed? How about:
 
             +----------------------------+
             |  1  2  3  4  5  6  7  8  9 |
@@ -171,8 +171,8 @@ class Board:
             | 37 38 39 40 41 42 43 44 45 |
             | 54 53 52 51 50 49 48 47 46 |
             | 55 56 57 58 59 60 61 62 63 |
-            | 64 65 66 67 68 69 70 71 72 |
-            | 81 80 79 78 77 76 75 74 73 |
+            | 72 71 70 69 68 67 66 65 64 |
+            | 73 74 75 76 77 78 79 80 81 |
             +----------------------------+
 
         :return: The string representation of the board.
